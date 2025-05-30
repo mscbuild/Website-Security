@@ -12,7 +12,7 @@
 
 is a powerful web application firewall (WAF) designed to protect PHP-based websites, including custom scripts, popular shopping carts, and CMS applications. It utilizes intelligent algorithms to detect known hacker attacks and identify new, unknown threats using advanced code and pattern recognition. Additionally, it offers automated responses to mitigate these attacks.This is a powerful website security application that will protect your website from hackers, attacks, and other threats. It will protect your website from SQLi attacks (SQL injections), XSS vulnerabilities, proxy visitors, VPN visitors, TOR visitors, spam, and many other types of threats.Project SECURITY is a powerful web application firewall designed to protect all PHP programs, from custom scripts to popular shopping cart programs and CMS applications. It allows any website administrator to take advantage of very advanced and powerful security features. It is very fast, optimized and requires very few system resources.
 
-[https://prowebber.club/uploads/posts/2022-04/project-security.webp] 
+img:[https://prowebber.club/uploads/posts/2022-04/project-security.webp] 
 
 ## Key Features
 
