@@ -119,6 +119,32 @@ Customize various settings such as:
 
 - You follow the coding standards used in the repository.
 
+  **Usage**
+  
+Viewing Logs:
+
+You can view detailed logs of detected attacks from the admin panel. The logs contain:
+
+- Timestamp
+
+- IP Address
+
+- Attack Type
+
+- Action Taken (e.g., blocked, flagged, etc.)
+
+**Blocking Traffic:**
+
+You can manually block any suspicious traffic directly from the admin panel by specifying IP addresses, countries, ISPs, or even browsers/operating systems.
+
+**Alerts:**
+
+Set up custom alerts in the admin panel to receive instant notifications whenever a new attack is detected or when specific thresholds are exceeded.
+ 
+  **Disclaimer:**
+
+This firewall is a tool to enhance website security but does not guarantee 100% protection against all threats. It is recommended to combine Project SECURITY with other security practices and tools to ensure the highest level of protection.
+
 **License**
 
 Project SECURITY is released under the MIT License.
