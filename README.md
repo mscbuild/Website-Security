@@ -1,4 +1,12 @@
 # Project SECURITY: Advanced Web Application Firewall (WAF)
+ ![](https://komarev.com/ghpvc/?username=mscbuild) 
+ ![](https://img.shields.io/github/license/mscbuild/e-learning) 
+ ![](https://img.shields.io/github/repo-size/mscbuild/e-learning)
+![](https://img.shields.io/badge/PRs-Welcome-green)
+![](https://img.shields.io/badge/code%20style-java-green)
+![](https://img.shields.io/github/stars/mscbuild)
+![](https://img.shields.io/badge/Topic-Github-lighred)
+![](https://img.shields.io/website?url=https%3A%2F%2Fgithub.com%2Fmscbuild)
 
 **Project SECURITY** is a powerful web application firewall (WAF) designed to protect PHP-based websites, including custom scripts, popular shopping carts, and CMS applications. It utilizes intelligent algorithms to detect known hacker attacks and identify new, unknown threats using advanced code and pattern recognition. Additionally, it offers automated responses to mitigate these attacks.This is a powerful website security application that will protect your website from hackers, attacks, and other threats. It will protect your website from SQLi attacks (SQL injections), XSS vulnerabilities, proxy visitors, VPN visitors, TOR visitors, spam, and many other types of threats.
 
