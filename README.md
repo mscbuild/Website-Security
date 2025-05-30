@@ -27,21 +27,26 @@
    ```
 
 2. **Upload to Your Server:**
+  
 Upload the files to your web server directory where you want to install the firewall.
 
-3. **Configure the Firewall:**
+4. **Configure the Firewall:**
+ 
 Navigate to the config/ directory and update the config.php file to suit your server environment.
 
-4. **Setup Database (Optional but Recommended):**
+5. **Setup Database (Optional but Recommended):**
+ 
 If you wish to store logs, create a database and import the provided SQL schema located in database/schema.sql. Update the config.php file to reflect the database connection settings.
 
-5. **Activate the Firewall:**
+6. **Activate the Firewall:**
+   
 To enable the firewall on your website, include the firewall script at the top of your website's main index.php or equivalent entry point:
 ```bash
 require_once('path/to/project-security/firewall.php');
 ```
 
 6. **Access the Admin Panel:**
+ 
 Navigate to http://yourdomain.com/admin and log in using the default admin credentials (which you should change immediately after installation). The default credentials are:
 
 - Username: admin
@@ -49,12 +54,15 @@ Navigate to http://yourdomain.com/admin and log in using the default admin crede
 - Password: password123
 
 ## Admin Panel Overview
+
 The admin panel is designed to be user-friendly and feature-rich. Here's a quick rundown of the features available:
 
 **Dashboard:**
+
 View a real-time overview of attacks, blocked traffic, and security status.
 
 **Logs:**
+
 Access detailed logs of all detected and blocked attacks. Logs can be filtered by attack type, date, source IP, and more.
 
 **Blocking:**
@@ -68,6 +76,7 @@ Access detailed logs of all detected and blocked attacks. Logs can be filtered b
 - Browser/OS Blocking: Block visitors using certain browsers or operating systems.
 
 **Settings:**
+
 Customize various settings such as:
 
 - Attack Sensitivity: Control how aggressive the detection algorithm is.
@@ -77,6 +86,7 @@ Customize various settings such as:
 - Action Settings: Set automatic responses for different attack types (e.g., block, challenge CAPTCHA, etc.).
 
 **Security Features**
+
 - Code & Pattern Recognition: Utilizes advanced algorithms to analyze and recognize attack patterns in real-time.
 
 - Automated Response System: Once a threat is detected, the system can automatically block it, log the event, and notify the administrator.
@@ -88,6 +98,7 @@ Customize various settings such as:
 - Session Management: Detects and prevents session hijacking and fixation attacks.
 
   **Contribution**
+  
 - We welcome contributions! If you would like to contribute to Project SECURITY, feel free to fork the repository and submit a pull request.
 
 - Before submitting changes, please ensure that:
@@ -99,6 +110,7 @@ Customize various settings such as:
 - You follow the coding standards used in the repository.
 
 **License**
+
 Project SECURITY is released under the MIT License.
  
 
