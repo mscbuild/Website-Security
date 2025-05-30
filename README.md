@@ -23,5 +23,4 @@
 1. **Download or Clone the Repository:**
 
    ```bash
-   git clone https://github.com/mscbuilde/Website-Security
-.git
+   git clone https://github.com/mscbuilde/Website-Security.git
