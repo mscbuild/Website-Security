@@ -1,7 +1,7 @@
 #  Project SECURITY – Website Security, Anti-Spam & Firewall
  ![](https://komarev.com/ghpvc/?username=mscbuild) 
  ![](https://img.shields.io/github/license/mscbuild/e-learning) 
- ![](https://img.shields.io/github/repo-size/mscbuild/e-learning)
+ ![](https://img.shields.io/github/repo-size/mscbuild/Website-Security)
 ![](https://img.shields.io/badge/PRs-Welcome-green)
 ![](https://img.shields.io/badge/code%20style-php-green)
 ![](https://img.shields.io/github/stars/mscbuild)
@@ -34,7 +34,7 @@ is a powerful web application firewall (WAF) designed to protect PHP-based websi
 
 1. **Download or Clone the Repository:**
 
-   ```bash
+   ```ruby
    git clone https://github.com/mscbuilde/Website-Security.git
    ```
 
@@ -53,7 +53,7 @@ If you wish to store logs, create a database and import the provided SQL schema 
 6. **Activate the Firewall:**
    
 To enable the firewall on your website, include the firewall script at the top of your website's main index.php or equivalent entry point:
-```bash
+```ruby
 require_once('path/to/project-security/firewall.php');
 ```
 
